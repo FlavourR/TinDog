@@ -1,0 +1,170 @@
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.75rem;
+  line-height: 4.5rem;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  top: 0;
+  position: absolute;
+  right: 30%;
+}
+
+#features {
+  padding: 7% 11%;
+  line-height: 1.5;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#custome-box {
+  width: 400px;
+  text-align: left;
+}
+
+
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.h-fea {
+  font-family: 'Montserrat', sans-serif;
+  padding: 30px 0;
+}
+
+.d-fea {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.navbar {
+  margin-bottom: 4.5rem;
+  padding: 8px 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 1.4rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+}
+
+.container-fluid {
+  padding: 3% 10% 7%;
+}
+
+/* Download button : for customize padding between 2 buttons */
+.download-btn {
+  margin: 3% 5% 3% 0;
+}
+
+/* testimonials section */
+#testimonials {
+  text-align: center;
+  background: #ef8172;
+  color: #fff;
+}
+
+.testimonials-img {
+  border-radius: 100%;
+  width: 20%;
+  margin: 20px;
+}
+
+/* padding button out of  the content cause it will be easily click not by
+  stuck as a bunch of content. Futhermore, arrow-button is not in the content, but it is
+  stick arund the content. Therefore, by padding the content'll spread out the arrow
+ */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press */
+#press {
+  background: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width : 20%;
+  padding: 0 4% 4% 4%;
+  position: relative;
+  bottom:20px;
+}
+
+/* card */
+#pricing {
+  padding: 7% 10%;
+}
+.card-deck {
+  padding: 3% 2%;
+}
+.card {
+  text-align: center;
+}
+
+/* cta section */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding : 7% 15%;
+}
+#cta-h{
+  font-family: 'Montserrat', sans-serif;
+  color:#fff;
+  font-size: 3rem;
+  line-height: 5.5rem;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
+.foot-icon{
+    padding: 3% 0%;
+  width : 5%;
+}
+/* Note : Always put media after tag/class/id. Otherwise, it won't work !*/
+@media(max-width:990px) {
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+    margin: 7% 20%;
+  }
+  h1{
+    text-align: center;
+  }
+}
